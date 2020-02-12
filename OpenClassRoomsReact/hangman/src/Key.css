@@ -1,0 +1,21 @@
+.key {
+    font-size: 2em;
+    text-align: center;
+    flex: 1 1 calc(100% / 13 - 0.4em);
+    outline: 0.08em solid gray;
+    margin: 0.15em;
+    display: flex;
+    cursor: default;
+}
+
+.key.true {
+    background : rgba(0,0,0, 0.5);
+    cursor: not-allowed;
+    /*makes button not clickable*/
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.key.false:hover {
+    outline : 0.08em solid white;
+}

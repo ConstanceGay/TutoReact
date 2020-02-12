@@ -1,0 +1,17 @@
+.guess {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: auto;
+  user-select: none;
+}
+
+.keyboard {
+  background: silver;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: auto;
+  user-select: none;
+}
